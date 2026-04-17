@@ -11,19 +11,6 @@ namespace OopLab6Task1
         private bool secondCondition;
 
         
-        public bool FirstCondition
-        {
-            get { return firstCondition; }
-            set { firstCondition = value; }
-        }
-
-        public bool SecondCondition
-        {
-            get { return secondCondition; }
-            set { secondCondition = value; }
-        }
-
-        
         public LogicPair()
         {
             this.firstCondition = false;
@@ -48,7 +35,18 @@ namespace OopLab6Task1
             }
         }
 
-       
+        public bool FirstCondition
+        {
+            get { return firstCondition; }
+            set { firstCondition = value; }
+        }
+
+        public bool SecondCondition
+        {
+            get { return secondCondition; }
+            set { secondCondition = value; }
+        }
+
         public bool CalculateNor()
         {
             return 
