@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|c:\\users\\boss\\source\\repos\\ooplab6task1\\ooplab6task1\\securitysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|solutionrelative:ooplab6task1\\securitysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|c:\\users\\boss\\source\\repos\\ooplab6task1\\ooplab6task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|solutionrelative:ooplab6task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|c:\\users\\boss\\source\\repos\\ooplab6task1\\ooplab6task1\\logicpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|solutionrelative:ooplab6task1\\logicpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|c:\\users\\boss\\source\\repos\\ooplab6task1\\ooplab6task1\\inputdatawithcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C997CAF2-5D37-D4C3-3A06-92555EFB8CDA}|OopLab6Task1\\OopLab6Task1.csproj|solutionrelative:ooplab6task1\\inputdatawithcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SecuritySystem.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\SecuritySystem.cs",
+              "RelativeDocumentMoniker": "OopLab6Task1\\SecuritySystem.cs",
+              "ToolTip": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\SecuritySystem.cs",
+              "RelativeToolTip": "OopLab6Task1\\SecuritySystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:37:00.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogicPair.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\LogicPair.cs",
+              "RelativeDocumentMoniker": "OopLab6Task1\\LogicPair.cs",
+              "ToolTip": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\LogicPair.cs",
+              "RelativeToolTip": "OopLab6Task1\\LogicPair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:36:29.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputDataWithCheck.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\InputDataWithCheck.cs",
+              "RelativeDocumentMoniker": "OopLab6Task1\\InputDataWithCheck.cs",
+              "ToolTip": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\InputDataWithCheck.cs",
+              "RelativeToolTip": "OopLab6Task1\\InputDataWithCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:35:43.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\Program.cs",
+              "RelativeDocumentMoniker": "OopLab6Task1\\Program.cs",
+              "ToolTip": "C:\\Users\\BOSS\\source\\repos\\OopLab6Task1\\OopLab6Task1\\Program.cs",
+              "RelativeToolTip": "OopLab6Task1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:34:50.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
