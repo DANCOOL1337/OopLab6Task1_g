@@ -7,26 +7,28 @@ namespace OopLab6Task1
     class SecuritySystem : LogicPair
     {
         
-        private bool isArmed;
+        private bool _isArmed;
 
-        public bool IsArmed
+        public bool _isArmed
         {
-            get { return isArmed; }
-            set { isArmed = value; }
+            get 
+                { return _isArmed; }
+            set 
+                { _isArmed = value; }
         }
 
         
         public SecuritySystem() : base()
         {
-            this.isArmed = false;
+            this._isArmed = false;
         }
 
         
         public SecuritySystem
             (bool doorOpen, bool windowOpen, 
-            bool isArmed) : base(doorOpen, windowOpen)
+            bool _isArmed) : base(doorOpen, windowOpen)
         {
-            this.isArmed = isArmed;
+            this._isArmed = _isArmed;
         }
 
         
@@ -34,7 +36,7 @@ namespace OopLab6Task1
         {
             if (other != null)
             {
-                this.isArmed = other.IsArmed;
+                this._isArmed = other._isArmed;
             }
         }
 
@@ -42,7 +44,7 @@ namespace OopLab6Task1
         public bool CheckAlarmTrigger()
         {
             
-            if (this.isArmed && this.CalculateNor() == false)
+            if (this._isArmed && this.CalculateNor() == false)
             {
                 return true; 
             }
@@ -52,14 +54,14 @@ namespace OopLab6Task1
         
         public void ToggleStatus()
         {
-            this.isArmed = !this.isArmed;
+            this._isArmed = !this._isArmed;
         }
 
         
         public override string ToString()
         {
             return $"{base.ToString()}, " +
-                $"На охране: {this.isArmed}";
+                $"На охране: {this._isArmed}";
         }
     }
 }
