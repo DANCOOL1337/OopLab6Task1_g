@@ -6,7 +6,7 @@ namespace OopLab6
     {
         static public double InputDouble(string msg)
         {
-            double res;
+            double res=0;
             while (!double.
                 TryParse(Console.ReadLine(), out res))
             {
