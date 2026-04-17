@@ -7,22 +7,22 @@ namespace OopLab6Task1
     class LogicPair
     {
         
-        private bool firstCondition;
-        private bool secondCondition;
+        private bool _firstCondition;
+        private bool _secondCondition;
 
         
         public LogicPair()
         {
-            this.firstCondition = false;
-            this.secondCondition = false;
+            this._firstCondition = false;
+            this._secondCondition = false;
         }
 
         
-        public LogicPair(bool firstCondition, 
-            bool secondCondition)
+        public LogicPair(bool _firstCondition, 
+            bool _secondCondition)
         {
-            this.firstCondition = firstCondition;
-            this.secondCondition = secondCondition;
+            this._firstCondition = _firstCondition;
+            this._secondCondition = _secondCondition;
         }
 
         
@@ -30,34 +30,38 @@ namespace OopLab6Task1
         {
             if (other != null)
             {
-                this.firstCondition = other.FirstCondition;
-                this.secondCondition = other.SecondCondition;
+                this._firstCondition = other._firstCondition;
+                this._secondCondition = other._secondCondition;
             }
         }
 
-        public bool FirstCondition
+        public bool _firstCondition
         {
-            get { return firstCondition; }
-            set { firstCondition = value; }
+            get 
+                { return _firstCondition; }
+            set 
+                { _firstCondition = value; }
         }
 
-        public bool SecondCondition
+        public bool _secondCondition
         {
-            get { return secondCondition; }
-            set { secondCondition = value; }
+            get 
+                { return _secondCondition; }
+            set 
+                { _secondCondition = value; }
         }
 
         public bool CalculateNor()
         {
             return 
-                !(this.firstCondition || this.secondCondition);
+                !(this._firstCondition || this._secondCondition);
         }
 
         
         public override string ToString()
         {
-            return $"Условие 1: {this.firstCondition}, " +
-                $"Условие 2: {this.secondCondition}";
+            return $"Условие 1: {this._firstCondition}, " +
+                $"Условие 2: {this._secondCondition}";
         }
     }
 }
