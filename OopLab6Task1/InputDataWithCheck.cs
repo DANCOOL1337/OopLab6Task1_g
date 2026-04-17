@@ -6,11 +6,12 @@ namespace OopLab6Task1
 {
     class InputDataWithCheck
     {
-        bool ok;
-        bool result;
+        
         static public bool 
             InputBooleanWithValidation(string message)
         {
+            bool ok=false;
+            bool result=false;
             do
             {
                 Console.WriteLine(message);
