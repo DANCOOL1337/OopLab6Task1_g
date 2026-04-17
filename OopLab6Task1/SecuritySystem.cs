@@ -21,7 +21,7 @@ namespace OopLab6Task1
             this.isArmed = false;
         }
 
-        /
+        
         public SecuritySystem
             (bool doorOpen, bool windowOpen, 
             bool isArmed) : base(doorOpen, windowOpen)
