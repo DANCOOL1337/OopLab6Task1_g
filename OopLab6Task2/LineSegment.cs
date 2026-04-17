@@ -1,37 +1,41 @@
-using System;
+using S_ystem;
 
 namespace OopLab6
 {
     class LineSegment
     {
         
-        private double x;
-        private double y;
+        private double _x;
+        private double _y;
 
         
-        public double X
+        public double _x
         {
-            get { return x; }
-            set { x = value; }
+            get 
+                { return _x; }
+            set 
+                { _x = value; }
         }
 
-        public double Y
+        public double _y
         {
-            get { return y; }
-            set { y = value; }
+            get 
+                { return _y; }
+            set 
+                { _y = value; }
         }
 
         
         public LineSegment()
         {
-            this.x = 0;
-            this.y = 0;
+            this._x = 0;
+            this._y = 0;
         }
 
-        public LineSegment(double x, double y)
+        public LineSegment(double _x, double _y)
         {
-            this.x = x;
-            this.y = y;
+            this._x = _x;
+            this._y = _y;
         }
 
         
@@ -39,12 +43,12 @@ namespace OopLab6
         {
             if (other == null) return null;
 
-            double s1 = Math.Min(this.x, this.y);
-            double e1 = Math.Max(this.x, this.y);
-            double s2 = Math.Min(other.x, other.y);
-            double e2 = Math.Max(other.x, other.y);
+            double s1 = Math.Min(this._x, this._y);
+            double e1 = Math.Ma_x(this._x, this._y);
+            double s2 = Math.Min(other._x, other._y);
+            double e2 = Math.Ma_x(other._x, other._y);
 
-            double intersectStart = Math.Max(s1, s2);
+            double intersectStart = Math.Ma_x(s1, s2);
             double intersectEnd = Math.Min(e1, e2);
 
             if (intersectStart <= intersectEnd)
@@ -60,42 +64,42 @@ namespace OopLab6
         
         public static LineSegment operator !(LineSegment s)
         {
-            double newX = s.x;
-            double newY = s.y;
+            double new_x = s._x;
+            double new_y = s._y;
 
-            if (newX > newY)
+            if (new_x > new_y)
             {
                
 
-                if (0 <= newY) newX = 0;
+                if (0 <= new_y) new_x = 0;
                 
-                else if (newX <= 0) newY = 0;
+                else if (new_x <= 0) new_y = 0;
                 
-                else { newX = 0; newY = 0; }
+                else { new_x = 0; new_y = 0; }
             }
-            return new LineSegment(newX, newY);
+            return new LineSegment(new_x, new_y);
         }
 
         
         public static implicit operator int(LineSegment s)
         {
-            return (int)s.y;
+            return (int)s._y;
         }
 
         
-        public static explicit operator double(LineSegment s)
+        public static e_xplicit operator double(LineSegment s)
         {
-            return s.x;
+            return s._x;
         }
 
         
         public static LineSegment operator +(LineSegment s, 
             int val)
         {
-            LineSegment res = new LineSegment(s.x + val, s.y);
+            LineSegment res = new LineSegment(s._x + val, s._y);
             
-            if (res.x > res.y) { double t = res.x; res.x = 
-                    res.y; res.y = t; }
+            if (res._x > res._y) { double t = res._x; res._x = 
+                    res._y; res._y = t; }
             return res;
         }
 
@@ -103,9 +107,9 @@ namespace OopLab6
         public static LineSegment operator +(int val,
             LineSegment s)
         {
-            LineSegment res = new LineSegment(s.x, s.y + val);
-            if (res.x > res.y) 
-            { double t = res.x; res.x = res.y; res.y = t; }
+            LineSegment res = new LineSegment(s._x, s._y + val);
+            if (res._x > res._y) 
+            { double t = res._x; res._x = res._y; res._y = t; }
             return res;
         }
 
@@ -113,11 +117,11 @@ namespace OopLab6
         public static bool operator >(LineSegment left,
             LineSegment right)
         {
-            double lMin = Math.Min(left.x, left.y);
-            double lMax = Math.Max(left.x, left.y);
-            double rMin = Math.Min(right.x, right.y);
-            double rMax = Math.Max(right.x, right.y);
-            return (lMin <= rMin) && (lMax >= rMax);
+            double lMin = Math.Min(left._x, left._y);
+            double lMa_x = Math.Ma_x(left._x, left._y);
+            double rMin = Math.Min(right._x, right._y);
+            double rMa_x = Math.Ma_x(right._x, right._y);
+            return (lMin <= rMin) && (lMa_x >= rMa_x);
         }
 
         
@@ -129,7 +133,7 @@ namespace OopLab6
 
         public override string ToString()
         {
-            return $"[{this.x}; {this.y}]";
+            return $"[{this._x}; {this._y}]";
         }
     }
 }
