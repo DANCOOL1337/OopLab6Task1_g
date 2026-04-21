@@ -38,15 +38,21 @@ namespace OopLab6Task1
         public bool _firstCondition
         {
             get 
-                { return _firstCondition; }
+                {
+                return _firstCondition; 
+                }
             set 
-                { _firstCondition = value; }
+                {
+                _firstCondition = value; 
+                }
         }
 
         public bool _secondCondition
         {
             get 
-                { return _secondCondition; }
+                {
+                return _secondCondition; 
+                }
             set 
                 { _secondCondition = value; }
         }
