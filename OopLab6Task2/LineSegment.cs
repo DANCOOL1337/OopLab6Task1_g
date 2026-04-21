@@ -128,10 +128,10 @@ namespace OopLab6
             LineSegment right)
         {
             double lMin = Math.Min(left._x, left._y);
-            double lMa_x = Math.Max(left._x, left._y);
+            double lMax = Math.Max(left._x, left._y);
             double rMin = Math.Min(right._x, right._y);
-            double rMa_x = Math.Max(right._x, right._y);
-            return (lMin <= rMin) && (lMa_x >= rMa_x);
+            double rMax = Math.Max(right._x, right._y);
+            return (lMin <= rMin) && (lMax >= rMax);
         }
 
 
